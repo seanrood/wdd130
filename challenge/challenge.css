@@ -1,0 +1,29 @@
+body {
+    background-color: pink;
+}
+
+main {
+    background-color: pink;
+}
+
+header {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+header:hover {
+    color: black;
+}
+
+main {
+    text-align: center;
+
+}
+
+.main-quote {
+    color: white;
+    font-size: 2em;
+    margin: 50px;
+
+}
