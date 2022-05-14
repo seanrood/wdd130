@@ -2,14 +2,10 @@ header {
     margin: 0 auto;
 }
 
-div {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
 #content {
     margin: 0 auto;
-
+    max-width: 1600px;
+   
 }
 
 nav a {
@@ -82,7 +78,7 @@ footer h3 a {
 }
 
 footer h3 a:hover {
-    background-color:#558B6E;
+    background-color: #558B6E;
     color: white;
 }
 
