@@ -41,7 +41,7 @@ nav a {
 #hero-msg h1,
 #hero-msg h4 {
     text-align: center;
-    font-family: "Rock Salt";
+    font-family: "Rock Salt", "Bradley Hand", "sans-serif";
 }
 
 .button-box {
@@ -99,7 +99,7 @@ nav a:hover {
 .msg h2{
     background-color: #8ECAE6;
     color: black;
-    font-family: "Rock Salt";
+    font-family: "Rock Salt", "Bradley Hand", "sans-serif";
     line-height: 1.5em;
     padding: 35px;
 }
