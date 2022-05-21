@@ -5,6 +5,10 @@ header {
     margin: 0 auto;
 }
 
+header a img{
+    padding-bottom:35px;
+}
+
 #content {
     margin: 0 auto;
     max-width: 1600px;
