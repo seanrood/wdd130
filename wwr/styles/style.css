@@ -301,4 +301,50 @@ footer .social img{
         margin-top: 25px;
     }
 }
-            
+
+/* Second page starts here*/
+
+.home-title{
+    font-size:2em;
+    margin-top: 10px;
+}
+
+.rivers-grid {
+    font-family: "Open Sans, Helvetica, sans-serif";
+    margin: 0;
+    line-height: 1.5em;
+}
+
+
+.salmon-img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.salmon-img{
+    border: solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.grandcanyon-img{
+    border: solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.desolation-img{
+    border: solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.desolation-img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.grandcanyon-img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
