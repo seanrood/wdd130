@@ -3,12 +3,12 @@
 header {
     margin: 0 auto;
     background-color: #219EBC;
-    display:grid;
+    display: grid;
     grid-template-columns: 150px auto;
 }
 
-header a img{
-    padding-bottom:1px;
+header a img {
+    padding-bottom: 1px;
 }
 
 #content {
@@ -16,17 +16,18 @@ header a img{
     max-width: 1600px;
 }
 
-main section img{
+main section img {
     box-sizing: border-box;
 }
-.home-title{
-    font-size:2em;
+
+.home-title {
+    font-size: 2em;
     margin-top: 10px;
 }
 
 #logo_link {
-    padding-top:5px;
-    padding-bottom:10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
     justify-self: center;
     align-self: center;
 
@@ -39,7 +40,7 @@ main section img{
 
 .icon {
     width: 100px;
-    padding-top:10px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -47,7 +48,7 @@ main section img{
 }
 
 nav {
-    display:flex;
+    display: flex;
     justify-content: space-around;
 }
 
@@ -58,7 +59,7 @@ nav a {
     color: black;
     text-decoration: none;
     font-family: "Roboto, Open sans, sans-serif";
-    padding:35px;
+    padding: 35px;
 }
 
 #hero-msg h1,
@@ -120,7 +121,7 @@ nav a:hover {
 .home-grid {
     font-family: "Roboto, Open Sans, sans-serif";
     display: grid;
-    grid-template-columns: repeat(10 , 1fr);
+    grid-template-columns: repeat(10, 1fr);
 }
 
 h2 {
@@ -145,43 +146,46 @@ h4 {
     grid-column: 1/2;
     grid-row: 1/2;
 }
+
 #bench {
     grid-column: 1/2;
     grid-row: 1/3;
     float: left;
 }
 
-#statement{
+#statement {
     grid-column: 3/5;
     grid-row: 3/5;
 }
 
-#casket-img{
+#casket-img {
     width: 600px;
     height: 300px;
     grid-column: 3/10;
     grid-row-start: -8;
 }
 
-#quote{
+#quote {
     grid-column: 2/10;
     grid-row: 6/10;
 }
 
 
 footer {
-    margin-top:200px;
-    display:flex;
+    margin-top: 200px;
+    display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 .social {
     margin-left: auto;
     margin: 0 auto;
     font-family: "Open Sans, Helvetica, sans-serif";
 }
-footer .social img{
-    padding-top:15px;
+
+footer .social img {
+    padding-top: 15px;
 }
 
 footer h3 a {
@@ -199,39 +203,51 @@ footer h3 a:hover {
 
 /* The sidebar menu */
 .sidenav {
-    width: 145px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+    width: 145px;
+    /* Set the width of the sidebar */
+    position: fixed;
+    /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
     left: 0;
-    background-color: #023047; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
+    background-color: #023047;
+    /* Black */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
     padding-top: 20px;
     margin-top: 170px;
-  }
-  
-  /* The navigation menu links */
-  .sidenav a {
+}
+
+/* The navigation menu links */
+.sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
     color: #678D58;
     display: block;
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
     color: #FFB703;
-  }
-  
-  /* Style page content */
-  .main {
-    margin-left: 160px; /* Same as the width of the sidebar */
+}
+
+/* Style page content */
+.main {
+    margin-left: 160px;
+    /* Same as the width of the sidebar */
     padding: 0px 10px;
-  }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
