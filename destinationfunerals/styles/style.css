@@ -76,6 +76,7 @@ nav a {
 
 main section {
     text-align: center;
+    display: grid;
 }
 
 
@@ -121,7 +122,11 @@ nav a:hover {
 .home-grid {
     font-family: "Roboto, Open Sans, sans-serif";
     display: grid;
+    margin: 0;
+    line-height: 1.5em;
+    width: 100%;
     grid-template-columns: repeat(10, 1fr);
+    
 }
 
 h2 {
@@ -140,34 +145,32 @@ h4 {
     font-family: "Roboto, Open Sans, sans-serif";
 }
 
-#bench-img {
-    width: 200px;
-    height: 300px;
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-
-#bench {
-    grid-column: 1/2;
-    grid-row: 1/3;
+.bench-img {
+    width: 300px;
+    height: 500px;
+    grid-column: 1;
+    grid-row: 3;
     float: left;
 }
 
-#statement {
-    grid-column: 3/5;
-    grid-row: 3/5;
+.bench {
+    grid-column: 1;
+    grid-row: 1;
+    float: right;
+    margin-left:50px;
 }
 
-#casket-img {
-    width: 600px;
-    height: 300px;
-    grid-column: 3/10;
-    grid-row-start: -8;
+.casket-img {
+    width: 800px;
+    height: 400px;
+    grid-column: 5/8;
+    grid-row-start: 6;
+    
 }
 
 #quote {
     grid-column: 2/10;
-    grid-row: 6/10;
+    grid-row: 3/5;
 }
 
 
@@ -199,6 +202,167 @@ footer h3 a {
 footer h3 a:hover {
     background-color: #FFB703;
     color: white;
+}
+
+/* Our Story Page */
+
+.ourstory-grid{
+    font-family: "Roboto, Open Sans, sans-serif";
+    display:grid;
+    margin: 0;
+    line-height: 1.5em;
+    width: 100%;
+    
+}
+
+.rood-img{
+    border: solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    height: 500px;
+    float:left;
+    margin-right: 20px;
+    margin-left:20px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.lantern-img{
+    display: block;
+    border: solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 3/4;
+    grid-row: 3/5;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+.lantern, h2{
+    text-align:center;
+}
+
+.history{
+   text-align:center;
+   width:50%
+}
+
+/* Destinations Page */
+
+.destinations-grid{
+    font-family: "Roboto, Open Sans, sans-serif";
+    display:grid;
+    grid-template-columns: repeat(5, fr);
+    grid-template-rows: repeat(5, fr);
+    margin: 0;
+    line-height: 1.5em;
+    width: 100%;
+    
+}
+
+.hawaii-img{
+    height: 450px;
+    width:600px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.california-img{
+    height:450px;
+    width: 600px;
+}
+
+.florida-img{
+    height:450px;
+    width:600px;
+}
+
+
+
+
+
+
+/* Contact us Page */
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    margin-top:25px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: .5em;
+  }
+
+  #feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;       
+}
+.moveDown {
+    margin-top: 3em;
 }
 
 /* The sidebar menu */
