@@ -124,9 +124,10 @@ nav a:hover {
     display: grid;
     margin: 0;
     line-height: 1.5em;
-    width: 100%;
-    grid-template-columns: repeat(10, 1fr);
-    
+    width: 100%; 
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    border: 3px solid orange;
 }
 
 h2 {
@@ -146,33 +147,43 @@ h4 {
 }
 
 .bench-img {
-    width: 300px;
-    height: 500px;
-    grid-column: 1;
-    grid-row: 3;
-    float: left;
-}
-
-.bench {
-    grid-column: 1;
-    grid-row: 1;
-    float: right;
-    margin-left:50px;
-}
-
-.casket-img {
-    width: 800px;
-    height: 400px;
-    grid-column: 5/8;
-    grid-row-start: 6;
+    /*width: 300px;
+    height: 500px; */
+   /* grid-column: 1;
+    grid-row: 3;*/
+    float: left; 
     
 }
 
-#quote {
-    grid-column: 2/10;
-    grid-row: 3/5;
+#statement{
+    border: 3px solid lawngreen;
+    grid-column: 2/4;
+    grid-row: 4/5; 
+} 
+
+#bench {
+   /* grid-column: 1;
+    grid-row: 1;*/
+    float: left;
+    margin-left:50px;
+    border: 3px solid blue;
+    grid-column: 1/5;
+    grid-row: 1/2;
 }
 
+#quote {
+    /*grid-column: 2/10;
+    grid-row: 3/5; */
+    border: 3px solid red;
+    grid-column: 1/6;
+    grid-row: 5/6;
+}
+
+.casket-img {
+    /*width: 800px;
+    height: 400px; */
+    
+}
 
 footer {
     margin-top: 200px;
@@ -233,7 +244,7 @@ footer h3 a:hover {
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
     grid-column: 3/4;
-    grid-row: 3/5;
+    grid-row: 4/5;
     margin-left:auto;
     margin-right:auto;
     
