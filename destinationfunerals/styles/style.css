@@ -127,7 +127,7 @@ nav a:hover {
     width: 100%; 
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 20% 20% 20% 20% 20%;
-    border: 3px solid orange;
+    /*border: 3px solid orange;*/
 }
 
 h2 {
@@ -147,39 +147,41 @@ h4 {
 }
 
 .bench-img {
-    /*width: 300px;
-    height: 500px; */
-   /* grid-column: 1;
-    grid-row: 3;*/
+    border: solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-right: 20px;
     float: left; 
     
 }
 
 #statement{
-    border: 3px solid lawngreen;
-    grid-column: 2/4;
+    /*border: 3px solid lawngreen;*/
+    padding: 60px;
+    grid-column: 2/5;
     grid-row: 4/5; 
 } 
 
 #bench {
-   /* grid-column: 1;
-    grid-row: 1;*/
     float: left;
     margin-left:50px;
-    border: 3px solid blue;
+    /*border: 3px solid blue;*/
     grid-column: 1/5;
     grid-row: 1/2;
 }
 
 #quote {
-    /*grid-column: 2/10;
-    grid-row: 3/5; */
-    border: 3px solid red;
+    /*border: 3px solid red;*/
+    padding:10px;
+    text-align:center;
     grid-column: 1/6;
     grid-row: 5/6;
 }
 
 .casket-img {
+    border: solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
     /*width: 800px;
     height: 400px; */
     
@@ -247,7 +249,6 @@ footer h3 a:hover {
     grid-row: 4/5;
     margin-left:auto;
     margin-right:auto;
-    
 }
 
 .lantern, h2{
@@ -264,34 +265,78 @@ footer h3 a:hover {
 .destinations-grid{
     font-family: "Roboto, Open Sans, sans-serif";
     display:grid;
-    grid-template-columns: repeat(5, fr);
-    grid-template-rows: repeat(5, fr);
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
     margin: 0;
     line-height: 1.5em;
     width: 100%;
-    
+    /*border: 3px solid orange;*/
 }
 
+#destinations{
+    grid-column: 1/6;
+    grid-row: 1;
+    text-align: center;
+
+}
 .hawaii-img{
+    border: solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
     height: 450px;
     width:600px;
-    grid-column-start: 1;
-    grid-row-start: 1;
+    float:left;
+    margin-right: 20px;
+} 
+
+#hawaii{
+   /* border: 3px solid purple;*/
+    padding: 40px;
+    grid-column: 1/6;
+    grid-row: 2/3;
 }
 
 .california-img{
+    border: solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
     height:450px;
     width: 600px;
+    float:left;
+    margin-right: 20px;
+}
+
+#california{
+    /*border: 3px solid red;*/
+    padding: 40px;
+    grid-column: 1/6;
+    grid-row:3/4;
 }
 
 .florida-img{
+    border: solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
     height:450px;
     width:600px;
+    float:left;
+    margin-right: 20px;
 }
 
+#florida{
+   /* border: 3px solid yellowgreen;*/
+   padding: 40px;
+    grid-column: 1/6;
+    grid-row: 4/5;
+}
 
-
-
+#cruise{
+   /* border: 3px solid turquoise;*/
+    padding: 20px;
+    grid-column: 1/6;
+    grid-row: 5/6;
+    text-align: center;
+}
 
 
 /* Contact us Page */
@@ -424,5 +469,47 @@ form {
 
     .sidenav a {
         font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
     }
 }
