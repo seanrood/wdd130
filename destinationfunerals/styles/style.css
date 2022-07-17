@@ -157,7 +157,7 @@ h4 {
 
 #statement{
     /*border: 3px solid lawngreen;*/
-    padding: 60px;
+    padding: 25px;
     grid-column: 2/5;
     grid-row: 4/5; 
 } 
@@ -291,7 +291,7 @@ footer h3 a:hover {
 
 #hawaii{
    /* border: 3px solid purple;*/
-    padding: 40px;
+    padding: 25px;
     grid-column: 1/6;
     grid-row: 2/3;
 }
@@ -308,7 +308,7 @@ footer h3 a:hover {
 
 #california{
     /*border: 3px solid red;*/
-    padding: 40px;
+    padding: 25px;
     grid-column: 1/6;
     grid-row:3/4;
 }
@@ -325,7 +325,7 @@ footer h3 a:hover {
 
 #florida{
    /* border: 3px solid yellowgreen;*/
-   padding: 40px;
+   padding: 25px;
     grid-column: 1/6;
     grid-row: 4/5;
 }
