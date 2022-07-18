@@ -294,7 +294,7 @@ h2 {
 }
 
 #hawaii {
-    border: 3px solid purple;
+   /* border: 3px solid purple;*/
     margin-top: 25px;
     margin-left: 20px;
     margin-bottom: 20px;
@@ -315,7 +315,7 @@ h2 {
 }
 
 #california {
-    border: 3px solid red;
+   /* border: 3px solid red;*/
     margin-top: 25px;
     margin-left: 20px;
     grid-column: 1/6;
@@ -335,7 +335,7 @@ h2 {
 }
 
 #florida {
-    border: 3px solid yellowgreen;
+    /*border: 3px solid yellowgreen;*/
     margin-top: 25px;
     margin-left: 20px;
     grid-column: 1/6;
@@ -343,7 +343,7 @@ h2 {
 }
 
 #cruise {
-    border: 3px solid turquoise;
+    /*border: 3px solid turquoise;*/
     margin-top: 20px;
     grid-column: 1/6;
     grid-row: 5/6;
