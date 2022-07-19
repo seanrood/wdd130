@@ -165,6 +165,7 @@ h4 {
 
 #quote {
     /* border: 3px solid red; */
+    color: #FFB703;
     padding: 10px;
     text-align: center;
     grid-column: 1/6;
